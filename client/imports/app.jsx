@@ -12,22 +12,14 @@ export default class App extends React.Component {
     render() {
         return(
             <div className="application">
-                <Navbar inverse collapseOnSelect>
-                    <Navbar.Header>
-                      <Navbar.Brand>
-                        <span>Aaron Parry</span>
-                      </Navbar.Brand>
-                      <Navbar.Toggle />
-                    </Navbar.Header>
-                    <Navbar.Collapse>
-                    </Navbar.Collapse>
-                </Navbar>
-                <div>
-                    <div className="row">
-                        <div className="tab-container col-xs-1">
+                <div className="row top-bar">
+                </div>
+                <div className="content">
+                    <div className="content">
+                        <div className="tab-container">
                             <Tabs />
                         </div>
-                        <div className="col-xs-11">
+                        <div className="app-container">
                             <MonthlyBudget />
                         </div>
                     </div>

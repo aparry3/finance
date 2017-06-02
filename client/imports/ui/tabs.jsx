@@ -9,7 +9,7 @@ export default class Tabs extends React.Component {
     render() {
         return(
             <div className="tabs">
-                <button className="tablinks"><span className="fa fa-credit-card fa-3x"></span></button>
+                <button className="tablinks"><i className="fa fa-credit-card fa-2x" /></button>
                 <button className="tablinks"></button>
                 <button className="tablinks"></button>
 

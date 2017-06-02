@@ -142,21 +142,19 @@ export default class MonthlyBudget extends React.Component {
             <div className='container'>
                 <h1>Monthly Salary: ${this.state.salary.month}</h1>
                 {this.renderModal()}
-                <div className="row">
-                    <div className="col col-md-6">
-                        <Button onClick={this.addIncomeSource}>Add income source</Button>
+                <div className="money">
+                    <Button onClick={this.addIncomeSource}>Add income source</Button>
 
-                        {this.state.incomeSources.map((inc) => {
-                            return <IncomeSource income={inc}/>;
-                        })}
-                    </div>
-                    <div className="col col-md-6">
-                        <Button onClick={this.addExpenseSource}>Add expense source</Button>
+                    {this.state.incomeSources.map((inc) => {
+                        return <IncomeSource income={inc}/>;
+                    })}
+                </div>
+                <div className="money">
+                    <Button onClick={this.addExpenseSource}>Add expense source</Button>
 
-                        {this.state.expenseSources.map((exp) => {
-                            return <ExpenseSource expense={exp}/>;
-                        })}
-                    </div>
+                    {this.state.expenseSources.map((exp) => {
+                        return <ExpenseSource expense={exp}/>;
+                    })}
                 </div>
             </div>
         );

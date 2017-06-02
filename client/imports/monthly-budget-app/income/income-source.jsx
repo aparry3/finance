@@ -11,7 +11,7 @@ export default class IncomeSource extends React.Component {
     }
     render() {
         return(
-            <div className='panel panel-success'>
+            <div className='panel panel-success money-card'>
                 <div className='panel-heading'>
                     {this.state.source.name}
                 </div>

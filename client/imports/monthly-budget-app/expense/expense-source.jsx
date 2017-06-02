@@ -11,7 +11,7 @@ export default class ExpenseSource extends React.Component {
     }
     render() {
         return(
-            <div className='panel panel-danger'>
+            <div className='panel panel-danger money-card'>
                 <div className='panel-heading'>
                     {this.state.expense.name}
                 </div>
