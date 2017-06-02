@@ -1,0 +1,46 @@
+/* CSS declarations go here */
+.row {
+    width: 100%
+}
+.application {
+    height:100%;
+}
+.container{
+    height: 100%;
+}
+.income {
+    background: #4CAF50;
+    border-radius: 20px;
+    height: 80px;
+    position:relative;
+}
+.tab-container {
+    height:100%;
+}
+.income-overlay  {
+    background: orange;
+    width: 50%;
+}
+.salary-well {
+    text-align:center;
+}
+.tabs {
+    width:100%;
+    height:100%;
+    background: #f1f1f1;
+    :hover {
+        background-color: #ddd;
+    }
+    button {
+        height:50px;
+        display: block;
+        background: inherit;
+        width:100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+
+    }
+}
